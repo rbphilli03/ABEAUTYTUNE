@@ -43,7 +43,7 @@ header nav a {
 }
 #content #mainContent #bannerImage {
 	/*Container for main banner image */
-	width: 75%;
+	width: 100%;
 	background-color: rgba(208,207,207,1.00);
 }
 #content #mainContent p {
