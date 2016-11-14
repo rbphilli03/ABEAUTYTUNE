@@ -51,6 +51,8 @@ header nav a {
 	/*Container for bannerVideo */
 	margin-top: 1%;
 	padding-top: 0;
+	width: 100%;
+	height: 75%;
 }
 #content #mainContent p {
 	/* All paragraphs under maincontent */
