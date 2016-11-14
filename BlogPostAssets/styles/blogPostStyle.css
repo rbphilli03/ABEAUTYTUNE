@@ -43,7 +43,7 @@ header nav a {
 }
 #content #mainContent #bannerImage {
 	/*Container for main banner image */
-	width: 100%;
+	width: 70%;
 	background-color: rgba(208,207,207,1.00);
 }
 
@@ -124,7 +124,7 @@ footer article h3 {
 #mainwrapper {
 	/* Container of all content */
 	width: 80%;
-	overflow: auto;
+	overflow:visible;
 	margin-left: 10%;
 }
 #content #sidebar input {
@@ -155,10 +155,10 @@ nav ul li a {
 }
 #footerbar {
 	/* Footer bar at the bottom of the page */
-	height: 62px;
+	height: 25px;
 	clear: both;
 	background-color: rgba(255,218,185,1.00);
-	width: 100%;
+	width: 75%;
 }
 #footerbar input {
 	/* Search box in sidebar */
@@ -179,6 +179,8 @@ footer {
 #mainContent #bannerImage img {
 	/* Actual banner image */
 	width: 100%;
+	
+	
 }
 #sidebar #adimage img {
 	/* Image in sidebar */
