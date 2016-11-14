@@ -158,11 +158,10 @@ nav ul li a {
 	height: 25px;
 	clear: both;
 	background-color: rgba(255,218,185,1.00);
-	width: 75%;
+	width: 100%;
 }
 #footerbar input {
 	/* Search box in sidebar */
-	width: 50%;
 	height: 15px;
 	margin-bottom: -10px;
 }
