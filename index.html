@@ -21,10 +21,7 @@
     <nav> <a href="index.html" title="AbeautyTune">Home</a> <a href="about.html" title="About">About</a> <a href="makeup.html" title="Makeup/Skincare">Makeup/Skincare</a> <a href="fashion.html" title="Fashion">Fashion</a><a href="Faith.html" title="Faith">Faith</a> </nav>
   </header>
   <div id="content">
-    <div class="notOnDesktop"> 
-      <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
-      <input type="text" placeholder="Search">
-    </div>
+    
     <section id="mainContent"> 
       <!--************************************************************************
     Main Blog content starts here
@@ -33,21 +30,15 @@
       <h3><!-- Tagline -->Here you can find the lastest posts on unique beauty looks, skincare, fashion, faith and so much more.</h3>
       <div id="bannerImage"><img src="BlogPostAssets/images/a_beauty_tune_profile_pic.jpg" alt="ABEAUTYTUNE"/></div>
       <div>
-      <iframe id="bannerVideo" src="https://www.youtube.com/embed/ceJz9g14xZo" allowfullscreen></iframe>
-		</div>
-       
-       <aside id="authorInfo"> 
-        <!-- The author information is contained here -->
-        <h2>Author Name</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </aside>
-    </section>
+      <h2>Recent Videos</h2>
+      <iframe id="bannerVideo" src="https://www.youtube.com/embed/ceJz9g14xZo" width="400" height="315" allowfullscreen></iframe>
+	  </div>
+</section>
     <section id="sidebar"> 
       <!--************************************************************************
     Sidebar starts here. It contains a searchbox, sample ad image and 6 links
     ****************************************************************************-->
-      <input type="text" placeholder="Search">
-      <div id="adimage"><img src="BlogPostAssets/images/300x250.gif" alt=""/></div>
+      <div id="adimage"></div>
       <nav>
        <h3><strong>Follow me on Social Media</strong></h3>
         <ul>
@@ -66,18 +57,23 @@
     <footer> 
       <!--************************************************************************
     Footer starts here
-    ****************************************************************************-->
-      <article>
-        <h3>Footer1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </article>
-      <article>
-        <h3>Footer2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </article>
-    </footer>
+    ****************************************************************************-->    </footer>
   </div>
-  <div id="footerbar"><!-- Small footerbar at the bottom --></div>
+  <div id="footerbar"><!-- Small footerbar at the bottom -->
+  <h3>Search My Site</h3>
+  <script>
+  (function() {
+    var cx = '006572611187067476873:qzckb8lwyss';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+  </div>
 </div>
 </body>
 </html>
