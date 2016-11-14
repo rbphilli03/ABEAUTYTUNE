@@ -46,6 +46,12 @@ header nav a {
 	width: 100%;
 	background-color: rgba(208,207,207,1.00);
 }
+
+#content #mainContent #bannerVideo{
+	/*Container for bannerVideo */
+	margin-top: 1%;
+	padding-top: 0;
+}
 #content #mainContent p {
 	/* All paragraphs under maincontent */
 	color: rgba(0,0,0,1.00);
@@ -97,6 +103,8 @@ footer article h3 {
 	padding-right: 2%;
 	padding-top: 41px;
 }
+
+
 #mainwrapper #content #sidebar {
 	/* Sidebar*/
 	width: 19%;
