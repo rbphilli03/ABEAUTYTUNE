@@ -198,7 +198,7 @@ footer {
 	color: rgba(128,128,128,1.00)
 }
 
-/* Tablet view */
+/* Tablet view  do i need*/
 @media screen and (max-width:769px) {
 .notOnDesktop {
 	/* Search box shown only in mobile view and Tablet view */
