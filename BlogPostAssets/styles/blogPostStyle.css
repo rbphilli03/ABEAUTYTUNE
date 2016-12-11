@@ -40,7 +40,7 @@ header nav a {
 	font-style: normal;
 	font-weight: 200;
 	color: rgba(0,0,0,1.00);
-	border: solid;
+	
 }
 #content #mainContent #bannerImage {
 	/*Container for main banner image */
@@ -66,7 +66,7 @@ header nav a {
 	font-style: normal;
 	font-weight: 200;
 	text-align: justify;
-	border:solid;
+	
 }
 #content #mainContent #authorInfo {
 	/* Author info section */
@@ -318,3 +318,11 @@ footer {
 }
 }
 
+.BlogHeaders {
+}
+#blogheader {
+	border: solid;
+}
+#Pblock {
+	border: solid;
+}
