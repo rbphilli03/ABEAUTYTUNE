@@ -42,9 +42,9 @@ header nav a {
 	color: rgba(0,0,0,1.00);
 	
 }
-#content #mainContent #bannerImage {
+.bannerImage {
 	/*Container for main banner image */
-	width: 70%;
+	width:auto;
 	background-color: rgba(208,207,207,1.00);
 }
 
@@ -178,7 +178,7 @@ footer {
 	/*element to be displayed only in mobile view and tabet view */
 	display: none;
 }
-#mainContent #bannerImage img {
+.bannerImage {
 	/* Actual banner image */
 	width: 100%;
 	
@@ -320,9 +320,5 @@ footer {
 
 .BlogHeaders {
 }
-#blogheader {
-	
-}
-#Pblock {
-	
-}
+
+
