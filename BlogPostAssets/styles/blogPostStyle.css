@@ -45,6 +45,7 @@ header nav a {
 .bannerImage {
 	/*Container for main banner image */
 	width:auto;
+	padding-top: inherit;
 	/*background-color: rgba(208,207,207,1.00); */
 }
 
