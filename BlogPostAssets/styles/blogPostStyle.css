@@ -45,7 +45,7 @@ header nav a {
 .bannerImage {
 	/*Container for main banner image */
 	width:auto;
-	background-color: rgba(208,207,207,1.00);
+	/*background-color: rgba(208,207,207,1.00); */
 }
 
 #content #mainContent #bannerVideo{
@@ -180,6 +180,7 @@ footer {
 }
 .bannerImage {
 	/* Actual banner image */
+	padding-top: 4px;
 	width: 100%;
 	
 	
