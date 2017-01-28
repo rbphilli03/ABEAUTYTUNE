@@ -49,6 +49,10 @@ header nav a {
 	/*background-color: rgba(208,207,207,1.00); */
 }
 
+.red {
+	color: red;
+}
+
 #content #mainContent #bannerVideo{
 	/*Container for bannerVideo */
 	margin-top: 1%;
