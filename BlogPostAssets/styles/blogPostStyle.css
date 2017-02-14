@@ -44,7 +44,7 @@ header nav a {
 }
 .bannerImage {
 	/*Container for main banner image */
-	width:auto;
+	width:50%;
 	padding-top: inherit;
 	/*background-color: rgba(208,207,207,1.00); */
 }
@@ -121,8 +121,8 @@ footer article h3 {
 
 #mainwrapper #content #sidebar {
 	/* Sidebar*/
-	width: 19%;
-	padding-left: 2%;
+	width: 15%;
+	padding-left: 1%;
 	padding-right: 2%;
 	float: left;
 	background-color: rgba(255,218,185,1.00);
@@ -138,7 +138,7 @@ footer article h3 {
 #content #sidebar input {
 	/* Search box in sidebar */
 	width: 98%;
-	height: 32px;
+	height: 25px;
 }
 
 #content #sidebar #adimage {
